@@ -74,6 +74,59 @@ img {
     border-radius: .10rem;
 }
 
+/* for tablet screen */
+@media only screen and (max-width: 680px) {
+    .side-img {
+        float: left;
+        width: 49%;
+    }
+  }
+  
+  /* for phone screen */
+  @media only screen and (max-width: 480px) {
+    .side-img {
+        float: left;
+        width: 100%;
+    }
+  }
+
+  /* for desktop screen */
+@media only screen and (max-width: 992px){
+    
+    .navbar-expand-lg{
+    background-color: #0BADA6 !important;
+    }
+
+    .side-img {
+      width: 25%;
+      height: 25%;
+    }
+
+    .navbar{
+        max-height: none; 
+        padding: inherit;
+    }
+
+    .navbar div{
+        margin: inherit; 
+        background-color: white;  
+    }
+
+    .navbar-brand{
+        padding: 10px !important; 
+    }
+        
+    button{
+        margin-right: 30px; 
+    }
+    
+    button:focus {
+    
+        outline: 1px dotted;
+        outline: 5px auto -webkit-focusring-color;
+        }
+}
+
 footer{
     background-color: #666666; 
     border-top-style: solid; 
