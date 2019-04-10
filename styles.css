@@ -24,7 +24,7 @@ body{background-color: #ededed;}
     width:75% !important;
     height:75% !important;
 }
-.col-6 {
+.col-lg-5 {
     width: 25%;
 }
 .whitebox {
@@ -53,10 +53,20 @@ img {
     width: 50% !important;
     height: 50% !important;
 }
+.smallpic2 {
+    width: 70% !important;
+    height: 70% !important;
+     
+}
 .col-md-6{
     text-align: center; 
-}
+    
 
+}
+.col-6{
+    width: 100% !important;
+    height: 100% !important;
+}
 .jumbotron {
     padding: 20px 20px 20px;
     margin:25px 25px 25px;
